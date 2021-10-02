@@ -679,7 +679,7 @@ body.light hr.separator {
   padding-left: 45px;
 }
 
-.about .interest-box p:before {
+/* .about .interest-box p:before {
   content: "";
   position: absolute;
   left: 0;
@@ -687,7 +687,7 @@ body.light hr.separator {
   width: 30px;
   height: 1px;
   background: #777;
-}
+} */
 
 /* Resume */
 
