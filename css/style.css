@@ -530,11 +530,11 @@ body.light hr.separator {
 }
 
 .home .bg {
-  background-image: url(../img/profile.jpeg);
+  background-image: url(../img/profile1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 100px);
   z-index: 111;
   border-radius: 30px;
   left: 40px;
@@ -551,6 +551,12 @@ body.light hr.separator {
 .home .home-details > div {
   max-width: 550px;
   margin: 0 auto;
+}
+
+.home .home-details .index-home {
+  position: relative;
+  margin: 10px 0 10px;
+  width: 90%;
 }
 
 .home .home-details h1 {
@@ -588,6 +594,7 @@ body.light hr.separator {
   margin: 15px 0 28px;
   font-size: 16px;
   line-height: 35px;
+  padding-left: 20px;
 }
 
 /*** About ***/
@@ -1807,6 +1814,7 @@ body.light hr.separator {
   font-weight: 700;
   border-right: transparent;
   box-sizing: border-box;
+  padding-left: 20px;
 }
 
 @keyframes typing {
@@ -1839,3 +1847,15 @@ body.light hr.separator {
   left: 50px;
   top: 10px;
   box-shadow: 0 0 7px rgba(0,0,0,.9);}
+
+  .gif-image{
+    height: 250px;
+    width: 50%;
+    text-align: center;
+    margin: auto
+  }
+  .gif-skill{
+    height: 250px;
+    width: 700px;
+
+  }
